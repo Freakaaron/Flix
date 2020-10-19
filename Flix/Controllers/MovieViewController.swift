@@ -31,7 +31,6 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
             guard let result = result else {
                 return
             }
-            print(result)
             self.movies = result
             self.moviesView.reloadData()
         }
