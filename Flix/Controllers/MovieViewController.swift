@@ -12,7 +12,7 @@ import AlamofireImage
 class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var moviesView: UITableView!
-    var movies: [[String:Any]] = []
+    var movies: [Movie] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +49,7 @@ extension MovieViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell
         let movie = self.movies[indexPath.row]
         
+        /*
         cell.movieLabel.text = movie["title"] as? String ?? ""
         cell.overviewLabel.text = movie["overview"] as? String ?? ""
         
@@ -58,8 +59,25 @@ extension MovieViewController {
             let imageUrl = URL(string: baseUrl + posterPath)
             cell.movieImage.af.setImage(withURL: imageUrl!)
         }
+        */
+        cell.movie = movie
         
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // Find the selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = moviesView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+       
+        
+        // Pass the selected movie to the Movie Details View Controller
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movied = movie
+        
+        moviesView.deselectRow(at: indexPath, animated: true)
     }
 }
 
