@@ -11,6 +11,7 @@
 		17057E44254879200027CE1E /* now_playing_tabbar_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 17057E3A254878450027CE1E /* now_playing_tabbar_item.png */; };
 		17057E45254879200027CE1E /* superhero_tabbar_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 17057E32254878440027CE1E /* superhero_tabbar_item.png */; };
 		17057E4A254889380027CE1E /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17057E49254889380027CE1E /* MovieGridCell.swift */; };
+		17057E4F254A25210027CE1E /* Flix_part2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 17057E4E254A25210027CE1E /* Flix_part2.gif */; };
 		17595E6F253B65D5002A01C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17595E6E253B65D5002A01C1 /* AppDelegate.swift */; };
 		17595E71253B65D5002A01C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17595E70253B65D5002A01C1 /* SceneDelegate.swift */; };
 		17595E73253B65D5002A01C1 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17595E72253B65D5002A01C1 /* MovieViewController.swift */; };
@@ -65,6 +66,7 @@
 		17057E3F254878460027CE1E /* superhero_tabbar_item@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superhero_tabbar_item@3x.png"; sourceTree = "<group>"; };
 		17057E40254878460027CE1E /* projector_tabbar_item@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projector_tabbar_item@3x.png"; sourceTree = "<group>"; };
 		17057E49254889380027CE1E /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		17057E4E254A25210027CE1E /* Flix_part2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Flix_part2.gif; sourceTree = "<group>"; };
 		17595E6B253B65D5002A01C1 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17595E6E253B65D5002A01C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17595E70253B65D5002A01C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		17595E62253B65D4002A01C1 = {
 			isa = PBXGroup;
 			children = (
+				17057E4E254A25210027CE1E /* Flix_part2.gif */,
 				17595E6D253B65D5002A01C1 /* Flix */,
 				17595E84253B65D8002A01C1 /* FlixTests */,
 				17595E8F253B65D9002A01C1 /* FlixUITests */,
@@ -379,6 +382,7 @@
 				17595E7B253B65D8002A01C1 /* LaunchScreen.storyboard in Resources */,
 				17595E78253B65D8002A01C1 /* Assets.xcassets in Resources */,
 				17595E76253B65D5002A01C1 /* Main.storyboard in Resources */,
+				17057E4F254A25210027CE1E /* Flix_part2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
